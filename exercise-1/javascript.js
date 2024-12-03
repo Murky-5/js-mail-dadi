@@ -11,12 +11,14 @@ NON POTETE UTILIZZARE NESSUN METODO COME:
 - ecc... 
 */
 
+
 /*
 1 - chiedo l'email all'utente e la salvo
 2 - verifico SE l'email inserita corrisponde ad almeno una di quelle già presenti nella lista
   - SE si può proseguire nel party
   - ALTRIMENTI gli chiedo di riprovare con una mail diversa
 */
+
 
 const listInvited = ["cancheabbaiacodanonmorde@gmail.com", "iginomassarifanbase@outlook.ka", "GIANPASQUALE96@GMAIL.com"]
 const userMail = prompt("Inserisci l'email con cui ti sei registrato")
