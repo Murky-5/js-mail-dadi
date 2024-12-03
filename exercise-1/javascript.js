@@ -18,4 +18,12 @@ NON POTETE UTILIZZARE NESSUN METODO COME:
   - ALTRIMENTI gli chiedo di riprovare con una mail diversa
 */
 
+const listInvited = ["cancheabbaiacodanonmorde@gmail.com", "iginomassarifanbase@outlook.ka", "GIANPASQUALE96@GMAIL.com"]
+const userMail = prompt("Inserisci l'email con cui ti sei registrato")
+
+for (let i = 0 ; i <= listInvited.length; i++) {
+    if (listInvited[i].toLowerCase() === userMail.toLowerCase()){
+        alert("Sei registrato, prosegui.")
+    }
+}
 
